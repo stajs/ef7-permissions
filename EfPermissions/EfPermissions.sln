@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6D694C34-A92D-4547-8FF8-9237730A2E34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D8A86356-9FFE-4C28-9BC5-37B5B1B730E9}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EfPermissions.Service", "src\EfPermissions.Service\EfPermissions.Service.xproj", "{042DB02E-97FC-408F-A8B0-0C813FC53F0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{042DB02E-97FC-408F-A8B0-0C813FC53F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{042DB02E-97FC-408F-A8B0-0C813FC53F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{042DB02E-97FC-408F-A8B0-0C813FC53F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{042DB02E-97FC-408F-A8B0-0C813FC53F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{042DB02E-97FC-408F-A8B0-0C813FC53F0D} = {6D694C34-A92D-4547-8FF8-9237730A2E34}
+	EndGlobalSection
+EndGlobal
