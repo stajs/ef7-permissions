@@ -6,21 +6,23 @@
 	"projectUrl": "",
 	"licenseUrl": "",
 
-	"compilationOptions": {
-		"emitEntryPoint": true
-	},
-
 	"dependencies": {
+		"EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
+		"EntityFramework.Commands": "7.0.0-rc1-final",
+		"Serilog": "1.5.14"
 	},
 
 	"commands": {
-		"EfPermissions.Service": "EfPermissions.Service"
+		"debug": "EfPermissions.Service debug",
+		"release": "EfPermissions.Service",
+		"ef": "EntityFramework.Commands"
 	},
 
 	"frameworks": {
 		"dnx46": {
 			"frameworkAssemblies": {
-				"System.ServiceProcess": "4.0.0.0"
+				"System.ServiceProcess": "4.0.0.0",
+				"System.Runtime": "4.0.0.0"
 			}
 		}
 	}
